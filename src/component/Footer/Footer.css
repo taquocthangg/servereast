@@ -1,4 +1,6 @@
+
 .footer__top{
+    padding: 0 50px;
     background-color: #2d2d2d;
 }
 .footer__top-submit{
@@ -23,4 +25,19 @@
     width: 460px;
     height: 50px;
     font-size: 18px;
+}
+.footer__mid {
+    padding-left: 50px;
+    /* background-image: url({backgroundFooter}); */
+}
+.footer__ul {
+    list-style: none;
+    font-size: 16px;
+    margin-top: 26px;
+    /* color: #fff; */
+}
+.li__active {
+    font-size: 25px;
+    margin-bottom: 20px;
+    cursor: none;
 }

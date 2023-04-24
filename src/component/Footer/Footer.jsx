@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import backgroundFooter from '../../img/logo/ctabg.png'
 const Footer = () => {
   return (
     <footer>
@@ -24,6 +25,15 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="footer__mid">
+        <ul className="footer__ul">
+          <li className="li__active">Choose.</li>
+          <li>Shared Hosting</li>
+          <li>Reseller Hosting</li>
+          <li>Cloud Managed VPS</li>
+          <li>Managed Dedicated Servers</li>
+        </ul>
       </div>
     </footer>
   )
