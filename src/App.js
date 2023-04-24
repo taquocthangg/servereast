@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 import { Header } from "./component/Header/Header";
-=======
 import Footer from "./component/Footer/Footer";
->>>>>>> aa46e08 (update)
 import Home from "./page/Home";
 
 function App() {
