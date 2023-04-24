@@ -31,7 +31,6 @@ const Footer = () => {
       </div>
       <div className="footer__mid">
         <ul className="footer__ul">
-          <li className="li__active">Choose.</li>
           <p className="p__active">Choose.</p>
           <li>Shared Hosting</li>
           <li>Reseller Hosting</li>

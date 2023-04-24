@@ -67,17 +67,18 @@
     margin-top: 26px;
     /* color: #fff; */
 }
-.li__active {
+.p__active {
     font-size: 25px;
     margin-bottom: 20px;
     cursor: none;
     margin: 0;
-    color: #fff;
+    color: #e1e3e4;
 }
 .footer__ul >li {
     padding: 15px 0;
     border-bottom: 1px solid #3f3f3e;
     cursor: pointer;
+    color: #e1e3e4;
 }
 .footer__ul >li:hover {
     color: #6ad0c3;
