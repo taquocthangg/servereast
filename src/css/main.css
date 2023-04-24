@@ -1,6 +1,7 @@
 *{
     margin: 0;padding: 0;
 }
+
 .btn {
     padding: 17px 40px;
     border: 0;
@@ -15,4 +16,9 @@
 }
 .btn:hover {
     background-color: #de6262;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+
 }

@@ -3,7 +3,10 @@ import '../css/main.css'
 const Home = () => {
   return (
     <div>
-      <button className="btn">ORDER DOWN</button>
+
+
+        
+
     </div>
   )
 }
