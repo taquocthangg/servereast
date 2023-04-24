@@ -5,12 +5,17 @@
 }
 .footer__top-submit{
     display: flex;
+    width: 100%;
 }
 .footer__top-wrapper{
     height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.footer__top-icon {
+    display: flex;
+    margin-right: 80px;
 }
 .footer__top-icon i:first-child{
     border-left: 1px solid #393939;
@@ -21,23 +26,65 @@
     padding: 25px 32px;
     border-right: 1px solid #393939;
 }
+.footer__top-btn {
+    font-size: 14px;
+    background-color: #4c746e !important;
+}
+.footer__top-btn:hover {
+    background-color: #4f6366 !important;
+}
 .footer__top-submit input{
-    width: 460px;
+    min-width: 400px;
     height: 50px;
     font-size: 18px;
+    padding-left: 10px;
+    outline: none;
 }
 .footer__mid {
-    padding-left: 50px;
-    /* background-image: url({backgroundFooter}); */
+    padding: 50px;
+    background-image: url(../../img/logo/ctabg.png);
+    display: flex;
+    justify-content: space-around;
+}
+.fa-brands:hover {
+    background-color: #4f6366;
+    cursor: pointer;
 }
 .footer__ul {
     list-style: none;
     font-size: 16px;
     margin-top: 26px;
-    /* color: #fff; */
+    margin: 0;
+    color: #fff;
 }
-.li__active {
-    font-size: 25px;
+.footer__ul >li {
+    padding: 15px 0;
+    border-bottom: 1px solid #3f3f3e;
+    cursor: pointer;
+}
+.footer__ul >li:hover {
+    color: #6ad0c3;
+}
+.p__active {
+    font-size: 30px;
+    font-weight: 1000;
     margin-bottom: 20px;
-    cursor: none;
+}
+.btn__footer {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    color: #ccc !important;
+    background-color: #4c736e !important;
+}
+.btn__footer:hover {
+    color: #fff !important;
+}
+.footer__top > p {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.footer__top  span {
+    color: #ccc;
 }
