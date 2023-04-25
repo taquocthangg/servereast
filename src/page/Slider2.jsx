@@ -19,7 +19,7 @@ const Slider2 = () => {
         slidesToScroll: 3,
         autoplay: true,
         speed: 2000,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         cssEase: "linear"
       };
   return (

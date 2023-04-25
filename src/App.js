@@ -14,6 +14,7 @@ function App() {
         <Home/>
       <Container/>
       <Slider1/>
+      <Slider2/>
         <Footer/>
     </div>
   );
