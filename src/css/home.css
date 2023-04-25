@@ -87,3 +87,103 @@ font-size: 19px;
 .nav__item i{
     font-size: 24px;
 }
+.slider__text1{
+    height:140px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+.slider_1{
+    background-color: red;
+    width: 100%;
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+    background-color: #efefef !important;
+}
+.slider1{
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+}
+.slider-caption1{
+    width: 1130px;
+    padding:25px 60px 5px 60px;
+}
+.slider-content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider__item1{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+.slider-center{
+    text-align:center; 
+    font-size: 17px;   
+    padding:25px 0;
+    font-weight: 300;
+    line-height:30px;
+}
+.text-color{
+    color: #5a5a5a;
+}
+.text1_title{
+    line-height: 1.1;
+    font-weight: bold;
+    margin: 12px 0;
+    font-size: 27px;
+
+}
+.text1_title1{
+    font-size: 17px;
+    text-align: center;
+}
+.nav__item1{
+
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+   
+}
+.active1{
+    background-color:  #999;
+    opacity: 0.5;
+
+}
+.slider-nav1 button:hover{
+    background-color:  #999;
+    opacity: 0.5;
+}
+
+.slider-nav1 button{
+
+    border: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color:#869791;
+    margin: 0 12px;
+    cursor: pointer;
+}
+.hide__text{
+    font-size: 18px;
+    font-weight: bold;
+    color: #6E6E6E;
+}
+.hide_text1{
+    color: #DE6262;
+}
+.slider-nav1{
+    height: 30px;
+    margin-top:15px;
+}

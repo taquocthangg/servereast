@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../css/home.css'
+
 const images = [
   {
     id: 1,
@@ -8,7 +9,7 @@ const images = [
     content: 'secure, fast and reliable',
     content1: 'See the Features',
     content2: 'SHARED HOSTING',
-    content3: 'HiRocketLaunch',
+    content3: 'fa fa-rocket',
   },
   {
     id: 2,
@@ -16,7 +17,8 @@ const images = [
     name: 'RESELLING SERVEREAST. EASIER THAN EVER.',
     content: 'your customers expect nothing but the best',
     content1: 'Learn More',
-    content2: 'RESELLER HOSTING'
+    content2: 'RESELLER HOSTING',
+    content3: 'fa fa-line-chart'
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ const images = [
     name: 'SSD VPS. IN THE CLOUD.',
     content: 'we deliver what you need',
     content1: 'More Info',
-    content2: 'CLOUD VPS'
+    content2: 'CLOUD VPS',
+    content3: 'fa fa-cloud'
   },
   {
     id: 4,
@@ -32,7 +35,8 @@ const images = [
     name: 'MANAGED DEDICATED SERVERS',
     content: '24/7/365 Server Support',
     content1: 'Order Now',
-    content2: 'DEDICATED SERVERS'
+    content2: 'DEDICATED SERVERS',
+    content3: 'fa fa-tasks'
   }
 ];
 function Slider() {
@@ -55,7 +59,8 @@ function Slider() {
             onClick={() => setActiveIndex(index)}
             className={index === activeIndex ? 'active' : ''}
           >
-            <div className="nav__item">  {image.content3}
+            <div className="nav__item">  
+            <i className={image.content3}></i>
               {image.content2}
             </div>
           </button>
