@@ -14,12 +14,6 @@ function App() {
         <Home/>
       <Container/>
       <Slider1/>
-<<<<<<< HEAD
-
-        <Home/>
-        <Slider2/>
-=======
->>>>>>> 4636b305cdd227d91a74c8e2d1a74fd4f2eb1737
         <Footer/>
     </div>
   );
