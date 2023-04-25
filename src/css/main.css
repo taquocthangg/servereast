@@ -20,8 +20,19 @@
 .container{
     width: 1250px;
     margin: 0 auto;
-
-
+}
+.name{
+    color: #5a5a5a;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    text-rendering: optimizelegibility;
+}
+.des{
+    font-weight: 300;
+    color: #5a6275;
+    font-size: 18px;
 }
 
 
