@@ -14,8 +14,6 @@ function App() {
         <Home/>
       <Container/>
       <Slider1/>
-        <Home/>
-        <Slider2/>
         <Footer/>
     </div>
   );
