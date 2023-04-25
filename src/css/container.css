@@ -1,0 +1,69 @@
+.container1 {
+    height: 480px;
+    background-image: url(../img/logo/ctabg.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1_wrap {
+    width: 1033px;
+    height: 179px;
+    margin-top: 75px;
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+}
+.container1_wrap1 {
+    flex: 3;
+    background-color: #de6262;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #883e3e;
+}
+.container1_wrap1 >span {
+    font-size: 60px;
+    font-weight: 600;
+    display: block;
+}
+.container1_wrap2 {
+    flex: 7;
+    background-color: #c65858;
+    height: calc(100% - (27px*2)) ;
+    padding: 27px;
+}
+.container1_wrap2 >h2 {
+    font-size: 45px;
+    line-height: 45px;
+    color: #fff;
+    font-weight: 1000;
+}
+.container1_wrap2 >p {
+    font-size: 20px;
+    color: #892a37;
+    margin-top: 5px;
+}
+.container1__form {
+    width: 994px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 127px;
+}
+.container1__input {
+    flex: 9;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.container1__btn {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
