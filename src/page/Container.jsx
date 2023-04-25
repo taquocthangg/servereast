@@ -1,5 +1,9 @@
 import React from 'react'
 import '../css/container.css'
+import Hinh1 from '../img/container/Hinh1.png'
+import Hinh2 from '../img/container/Hinh2.png'
+import Hinh3 from '../img/container/Hinh3.png'
+import Hinh4 from '../img/container/Hinh4.png'
 const Container = () => {
   return (
     <div>
@@ -28,9 +32,9 @@ const Container = () => {
             <div className="container2__list">
                 <h2>Shared Hosting</h2>
                 <div className="container2__item">
-                  <p>STARTING FROM</p>
+                  <h3>STARTING FROM</h3>
                   <span>$9</span>
-                  <p> PER MONTH</p>
+                  <h3> PER MONTH</h3>
                 </div>
                 <p>Personal use</p>
                 <p className="container2__p-active">Unlimited projects</p>
@@ -38,11 +42,74 @@ const Container = () => {
                 <p className="container2__p-active">Personal use</p>
                 <p>Unlimited projects</p>
                 <p className="container2__p-active">24/7 support</p>
-                <div className="container2__btn">
-                  <div className="btn">COMPARE4 PLANS</div>
+                <div className="container2__btn-wrap">
+                  <div className="btn container2__btn">COMPARE PLANS</div>
+                </div>
+            </div>
+            <div className="container2__list">
+                <h2>Reseller Hosting</h2>
+                <div className="container2__item">
+                  <h3>STARTING FROM</h3>
+                  <span>$18</span>
+                  <h3> PER MONTH</h3>
+                </div>
+                <p>Personal use</p>
+                <p className="container2__p-active">Unlimited projects</p>
+                <p>24/7 support</p>
+                <p className="container2__p-active">Personal use</p>
+                <p>Unlimited projects</p>
+                <p className="container2__p-active">24/7 support</p>
+                <div className="container2__btn-wrap">
+                  <div className="btn container2__btn">ORDER NOW</div>
+                </div>
+            </div>
+            <div className="container2__list container2__list-active">
+                <h2 >Cloud VPS</h2>
+                <div className="container2__item">
+                  <h3>STARTING FROM</h3>
+                  <span>$37</span>
+                  <h3> PER MONTH</h3>
+                </div>
+                <p>Personal use</p>
+                <p className="container2__p-active">Unlimited projects</p>
+                <p>24/7 support</p>
+                <p className="container2__p-active">Personal use</p>
+                <p>Unlimited projects</p>
+                <p className="container2__p-active">24/7 support</p>
+                <div className="container2__btn-wrap">
+                  <div className="btn container2__btn">LEARN MORE</div>
+                </div>
+            </div>
+            <div className="container2__list">
+                <h2>Dedicated Servers</h2>
+                <div className="container2__item">
+                  <h3>STARTING FROM</h3>
+                  <span>$126</span>
+                  <h3> PER MONTH</h3>
+                </div>
+                <p>Personal use</p>
+                <p className="container2__p-active">Unlimited projects</p>
+                <p>24/7 support</p>
+                <p className="container2__p-active">Personal use</p>
+                <p>Unlimited projects</p>
+                <p className="container2__p-active">24/7 support</p>
+                <div className="container2__btn-wrap">
+                  <div className="btn container2__btn">ORDER NOW</div>
                 </div>
             </div>
          </div>
+         <div className="container2__text-wrap">
+            <div className="container2__text">
+              <h2>A few <i class="fa fa-heart"></i> lovely stats</h2>
+              <p className="des">Synthesize inclusive capitalism, global health clean water grantees nonprofit equal opportunity.</p>
+            </div>
+          </div>
+          <div className="container4">
+            <img src={Hinh1} alt="" />
+            <img src={Hinh2} alt="" />
+            <img src={Hinh3} alt="" />
+            <img src={Hinh4} alt="" />
+          </div>
     </div>
   )
 }
